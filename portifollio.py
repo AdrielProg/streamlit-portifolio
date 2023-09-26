@@ -132,31 +132,26 @@ elif pagina_selecionada == "\U0001F4A1 Hard Skills":
 # Seção 'Experiência Acadêmica'
 elif pagina_selecionada == "\U0001F4DA Experiência Acadêmica":
     st.header("Experiência Acadêmica")
-
-  
-
-# Título da seção
-    st.write("## Experiência Acadêmica")
-
     st.write("### Ensino Superior")
 
-# XP Educação
+
     st.write("**XP Educação**")
     st.write("Análise e Desenvolvimento de Sistemas")
     st.write("Outubro de 2022 - 2025")
     st.write("Competências: Programação Orientada a Objetos (POO), python, HTML, CSS")
 
-    # Universidade Federal da Paraíba
+    
     st.write("### Ensino Médio")
 
-# IFRN
+
     st.write("**IFRN**")
     st.write("Ensino Médio, Técnico em Eletrotécnica")
     st.write("Maio de 2014 - Dezembro de 2018")
     st.write("Competências: Inglês")
 
+
     st.write("### Demais Cursos e Bootcamps")
-    # Udemy Alumni
+   
     st.write("**Udemy Alumni**")
     st.write("Java Completo 2023 Programação Orientada a Objetos + Projetos")
     st.write("Nota: Em andamento")
@@ -165,4 +160,4 @@ elif pagina_selecionada == "\U0001F4DA Experiência Acadêmica":
 
 
     # Rodapé
-st.sidebar.write("Desenvolvido por Adriel Alexander de Sousa")
+st.sidebar.write("Desenvolvido por Adriel Alexander")
