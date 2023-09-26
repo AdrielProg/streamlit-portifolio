@@ -23,11 +23,6 @@ color_page = """
          background-image: url(https://c4.wallpaperflare.com/wallpaper/404/355/659/concrete-texture-dark-background-abstract-hd-wallpaper-preview.jpg);
          background-repeat: no-repeat;
          background-size: cover;
-    
-         width: 100%;
-         height: 100%;
-     
-         
         }
         .css-1avcm0n{
        
