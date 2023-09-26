@@ -1,8 +1,9 @@
 import streamlit as st
 import style as stl 
+from style import color_page  
 
 stl.set_custom_style()
-
+st.markdown(color_page, unsafe_allow_html=True)
 
 # Definindo o título do aplicativo
 st.title("Adriel Alexander")

@@ -12,8 +12,7 @@ def set_custom_style():
     )
 
     # Define a cor de fundo da barra lateral
-    st.markdown(
-        """
+color_page = """
         <style>
         .css-6qob1r{
            background: linear-gradient(190deg, #01392B, black);
@@ -35,22 +34,9 @@ def set_custom_style():
         background: linear-gradient(60deg, #01392B, black);
         }
         </style>
-        """,
-        unsafe_allow_html=True,
-    )
-
-    # Define a cor de fundo das páginas
-    st.markdown(
         """
-        <style>
-        body {
-            background-color: #E6E6E6;  # Altere para a cor desejada
-        }
-        </style>
-        """,
-        unsafe_allow_html=True,
-    )
-  
+    
+
 
    
   
