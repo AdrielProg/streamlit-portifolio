@@ -8,16 +8,6 @@ st.set_page_config(
         layout="wide",
         initial_sidebar_state="expanded",
 )
-color_page = """
-        <style>
-        .css-6qob1r{
-             background-image: url(https://st2.depositphotos.com/23139684/49123/i/600/depositphotos_491233374-stock-photo-abstract-blurred-background-defocused-blue.jpg);
-         background-size: cover;
-
-        </style>
-        """
-st.markdown(color_page, unsafe_allow_html=True)
-
 # Definindo o título do aplicativo
 st.title("Adriel Alexander")
 
