@@ -1,8 +1,21 @@
 import streamlit as st
-import style as stl 
-from style import color_page  
+ 
+ 
 
-stl.set_custom_style()
+st.set_page_config(
+        page_title="Meu Portfólio",
+        page_icon=":computer:",
+        layout="wide",
+        initial_sidebar_state="expanded",
+)
+color_page = """
+        <style>
+        .css-6qob1r{
+             background-image: url(https://st2.depositphotos.com/23139684/49123/i/600/depositphotos_491233374-stock-photo-abstract-blurred-background-defocused-blue.jpg);
+         background-size: cover;
+
+        </style>
+        """
 st.markdown(color_page, unsafe_allow_html=True)
 
 # Definindo o título do aplicativo
