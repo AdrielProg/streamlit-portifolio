@@ -21,7 +21,7 @@ def set_custom_style():
            }
         .main{
         background-color: red; 
-         background-image: url(https://img.freepik.com/fotos-gratis/fundo-preto-antigo-textura-do-grunge-papel-de-parede-escuro-quadro-negro-quadro-negro-parede-da-sala_1258-28312.jpg?w=1380&t=st=1695749202~exp=1695749802~hmac=7465f15a1f95d3ecd6732aa1e7f4ec9005a729e62929fa735daf62dead56c005);
+         background-image: url(https://c4.wallpaperflare.com/wallpaper/404/355/659/concrete-texture-dark-background-abstract-hd-wallpaper-preview.jpg);
          background-repeat: no-repeat;
          background-size: cover;
     
