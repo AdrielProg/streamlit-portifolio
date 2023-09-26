@@ -15,18 +15,9 @@ def set_custom_style():
 color_page = """
         <style>
         .css-6qob1r{
-           background: linear-gradient(190deg, #01392B, black);
-           color: grey;
-           }
-        .main{
-        background-color: red; 
-         background-image: url(https://c4.wallpaperflare.com/wallpaper/404/355/659/concrete-texture-dark-background-abstract-hd-wallpaper-preview.jpg);
+             background-image: url(https://st2.depositphotos.com/23139684/49123/i/600/depositphotos_491233374-stock-photo-abstract-blurred-background-defocused-blue.jpg);
          background-size: cover;
-        }
-        .css-1avcm0n{
-       
-        background: linear-gradient(60deg, #01392B, black);
-        }
+
         </style>
         """
     
