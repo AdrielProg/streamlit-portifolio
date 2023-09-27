@@ -148,5 +148,11 @@ h1 {
     color: #FFFFFF;
     margin: 5px 0;
 }
+#MainMenu {
+    visibility: hidden;
+    }
+    footer {
+        visibility: hidden;
+    }
 </style>
 '''
