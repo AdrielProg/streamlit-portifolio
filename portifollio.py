@@ -31,17 +31,11 @@ if pagina_selecionada == "\U0001F464 Sobre Mim":
 <div class="secao-sobre-mim">
     <h2 class="titulo-secao">Sobre Mim</h2>
     <p class="paragrafo-introducao">Olá! &#128075; Sou um entusiasta de desenvolvimento de software, recentemente graduado no bootcamp de BackEnd Java da DIO.</p>
-    <p class="paragrafo-introducao">Tenho uma paixão ardente por programação orientada a objetos, especialmente na linguagem Java &#9749;.</p>
+    <p class="paragrafo-introducao">Tenho muita  paixão e foco por programação orientada a objetos, especialmente na linguagem Java, gosto muito de tecnologia e exploro,constatemente, outras linguagens de programação &#9749;.</p>
     <p class="paragrafo-introducao">Além disso, sou estudante de Análise e Desenvolvimento de Sistemas na Faculdade XP, buscando constantemente aprimorar minhas habilidades e conhecimentos.</p>
     <div class="habilidades">
-        <h3 class="subtitulo">Minhas Habilidades:</h3>
-        <ul class="lista-habilidades">
-            <li class="item-habilidade">Desenvolvimento de Aplicativos Java</li>
-            <li class="item-habilidade">Conhecimentos em MySQL (MariaDB) e NoSQL (MongoDB)</li>
-        </ul>
-    </div>
     <p class="paragrafo-introducao">Nas horas vagas, sou um grande fã de video games, especialmente League of Legends, onde busco melhorar minhas habilidades em partidas ranqueadas.</p>
-    <p class="paragrafo-introducao">Também sou um orgulhoso dono de um gato de estimação, que é uma fonte constante de alegria e inspiração. &#128049;</p>
+    <p class="paragrafo-introducao">Também sou um cuidadoso dono de um gato de estimação chamado Tapioca (Ele é muito branco), que é uma fonte constante de alegria pra mim, mas isso é indiferente para ele. &#128049;</p>
     <p class="paragrafo-introducao">Estou ansioso para contribuir com ideias inovadoras, participar de equipes colaborativas e comunicativas e continuar minha jornada no mundo do desenvolvimento de software.</p>
     <p class="paragrafo-introducao">Conecte-se comigo no <a class="link-externo" href="https://www.linkedin.com/in/Adriel-alexs/" target="_blank">LinkedIn</a> para oportunidades de aprendizado e colaboração!</p>
     <p class="paragrafo-introducao">Confira meus trabalhos acadêmicos no <a class="link-externo" href="https://github.com/AdrielProg" target="_blank">GitHub</a> &#128187;</p>
