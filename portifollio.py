@@ -11,14 +11,14 @@ st.set_page_config(
 st.markdown(estilo, unsafe_allow_html=True)
 # Definindo o título do aplicativo
 st.write(
-    """
-    <div class="container" style="text-align: center; margin-top: -4px;">
-        <h1 class='titulo-personalizado' style='color: white; background-color: #01392B;'>Adriel Alexander</h1>
-        <div class="profile-img">
-            <img src="https://i.imgur.com/Ux9sLQp.jpg" alt="Foto de Perfil" width="200" height="200" style="border-radius: 50%; max-width: 200px; border: 8px solid #01392B; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); margin: 0 auto; margin-top: 7px;">
-        </div>
+  """
+<div class="container" style="text-align: center; margin-top: -4px;">
+    <h1 class='titulo-personalizado' style='color: white; background-color: #01392B;'>Adriel Alexander</h1>
+    <div class="profile-img">
+        <img src="https://i.imgur.com/Ux9sLQp.jpg" alt="Foto de Perfil" width="300" height="300" style="border-radius: 50%; max-width: 300px; border: 8px solid #01392B; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); margin: 0 auto; margin-top: 7px;">
     </div>
-    """,
+</div>
+""",
     unsafe_allow_html=True
 )
 # Sidebar com links para as páginas
