@@ -168,11 +168,11 @@ h1 {
     color: #FFFFFF;
     margin: 5px 0;
 }
-#MainMenu {
+/*#MainMenu {
     visibility: hidden;
     }
     footer {
         visibility: hidden;
-    }
+    }*/
 </style>
 '''
