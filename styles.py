@@ -46,6 +46,7 @@ estilo = '''
 .titulo-secao {
     font-size: 24px;
     margin-bottom: 20px;
+    color: #00A86B; 
 }
 /* Estilo para os parágrafos de introdução */
 .paragrafo-introducao {
@@ -67,9 +68,10 @@ estilo = '''
 }
 
 /* Título das habilidades */
-.subtitulo {
+h2.subtitulo {
     font-size: 20px;
     margin-bottom: 10px;
+    color: #00A86B; 
 }
 
 /* Lista de habilidades */
@@ -99,7 +101,7 @@ estilo = '''
 /* Título do projeto */
 .titulo-projeto {
     font-size: 20px;
-    color: #FFFFFF;
+    color: #00A86B; 
     margin-bottom: 10px;
 }
 /* Descrição do projeto */
@@ -151,14 +153,14 @@ h1 {
 /* Estilo para o título da categoria */
 .categoria h2 {
     font-size: 24px;
-    color: #FFFFFF;
+    color: #00C776; 
     margin-bottom: 10px;
 }
 
 /* Estilo para o nome da instituição */
 .categoria h3 {
     font-size: 18px;
-    color: #007bff;
+    color: ##0A0127;
     margin-bottom: 5px;
 }
 
