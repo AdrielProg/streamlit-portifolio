@@ -6,7 +6,6 @@ import barraDeContatos as bc
 st.set_page_config(
         page_title="Meu Portfólio",
         page_icon=":computer:",
-        layout="wide",
         initial_sidebar_state="expanded",
 )
 st.markdown(estilo, unsafe_allow_html=True)
