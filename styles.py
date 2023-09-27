@@ -170,11 +170,32 @@ h1 {
     color: #FFFFFF;
     margin: 5px 0;
 }
-#MainMenu {
+/*#MainMenu {
     visibility: hidden;
     }
     footer {
         visibility:hidden;
+}*/
+
+.badge-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin
+}
+
+.badge-container > div {
+    margin: 0 20px; /* Adicione a margem desejada entre os badges */
+}
+
+@media (max-width: 600px) {
+    .badge-container {
+    display: flex;
+    justify-content: center;
+    }
+    .badge-container > div {
+        margin: 5px 0; /* Adicione a margem desejada entre os badges em telas menores */
+    }
 }
 </style>
 '''

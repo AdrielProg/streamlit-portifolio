@@ -1,5 +1,6 @@
 import streamlit as st
 from styles import estilo
+import barraDeContatos as bc
  
 
 st.set_page_config(
@@ -14,6 +15,13 @@ st.markdown(estilo, unsafe_allow_html=True)
 col1, col2 = st.columns(2, gap="small")
 with col1:
     st.image('Adriel2.png')
+    badge_info_list = bc.adciona_badges()
+    bc.start(badge_info_list)
+
+    badge_list = [bc.generate_badge(image_url, link) for image_url, link in badge_info_list]
+
+# Englobe as divs de badge dentro de um container
+    st.markdown('<div class="badge-container">' + ''.join(badge_list) + '</div>', unsafe_allow_html=True)
 with col2:        
     st.write(
   """
@@ -32,26 +40,7 @@ with col2:
     unsafe_allow_html=True
 )
 
-col1, col2, col3, col4 = st.columns(4)
 
-# Função para criar um badge centralizado
-def centered_badge(image_url, link, margin_bottom="-10px"):
-    centered_style = f"display: flex; flex-direction: column; align-items: center; text-align: center; margin-bottom: {margin_bottom};"
-    badge = f'<div style="{centered_style}"><a href="{link}" target="_blank"><img src="{image_url}" alt="Badge" width="38"></a></div>'
-    return badge
-
-with col1:
-    st.markdown(centered_badge("https://img.icons8.com/fluency/48/linkedin.png", "https://www.linkedin.com/in/adriel-alexs/"), unsafe_allow_html=True)
-
-with col2:
-    st.markdown(centered_badge("https://img.icons8.com/fluency/48/github.png", "https://github.com/AdrielProg"), unsafe_allow_html=True)
-
-with col3:
-    st.markdown(centered_badge("https://img.icons8.com/fluency/48/email.png", "mailto:adriel.alexs123@gmail.com"), unsafe_allow_html=True)
-
-with col4:
-    st.markdown(centered_badge("https://img.icons8.com/fluency/48/phone.png", "tel:+5583998178892"), unsafe_allow_html=True)
-  
 st.markdown('<hr style="border: 1px solid #00A86B; border-style: none none solid none; margin-bottom: 40px;">', unsafe_allow_html=True)
 
 
