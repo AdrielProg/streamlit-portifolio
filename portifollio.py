@@ -179,6 +179,3 @@ elif pagina_selecionada == "\U0001F4DA Experiência Acadêmica":
 
     st.markdown(experiencia, unsafe_allow_html=True)
 
-
-    # Rodapé
-st.sidebar.write("Desenvolvido por Adriel Alexander")
