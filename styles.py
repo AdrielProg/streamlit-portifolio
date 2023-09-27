@@ -14,7 +14,7 @@ estilo = '''
     padding: 20px;
     border: 2px solid #00A86B;
     border-radius: 10px;
-    background-color: #003528;
+    background-color: #190431;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .titulo-personalizado{
@@ -22,7 +22,7 @@ estilo = '''
     padding: 20px;
     border: 2px solid #00A86B;
     border-radius: 10px;
-    background-color: #003528;
+    background-color: #190431;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 }
@@ -39,7 +39,7 @@ estilo = '''
     padding: 20px;
     border: 2px solid #00A86B;
     border-radius: 10px;
-    background-color: #003528;
+    background-color: #190431;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 /* Título da seção */
@@ -62,7 +62,7 @@ estilo = '''
     padding: 20px;
     border: 2px solid #00A86B;
     border-radius: 10px;
-    background-color: #003528;
+    background-color: #190431;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -80,7 +80,7 @@ estilo = '''
 }
 /* Estilo para os links externos */
 .link-externo {
-    color: #00A86B;
+    color: #190431;
     text-decoration: none;
     font-weight: bold;
 }
@@ -93,7 +93,7 @@ estilo = '''
     padding: 20px;
     border: 2px solid #00A86B;
     border-radius: 10px;
-    background-color: #003528;
+    background-color: #190431;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 /* Título do projeto */
@@ -144,7 +144,7 @@ h1 {
     padding: 20px;
     border: 2px solid #00A86B;
     border-radius: 10px;
-    background-color: #003528;
+    background-color: #190431;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);   
 }
 
@@ -168,11 +168,11 @@ h1 {
     color: #FFFFFF;
     margin: 5px 0;
 }
-/*#MainMenu {
+#MainMenu {
     visibility: hidden;
     }
     footer {
         visibility: hidden;
-    }*/
+    }
 </style>
 '''

@@ -18,7 +18,7 @@ with col2:
     st.write(
   """
 <div class="container" style="text-align: center; margin-top: -4px;">
-    <h1 class='titulo-personalizado' style='color: white; background-color: #01392B;'>Adriel Alexander</h1>
+    <h1 class='titulo-personalizado' style='color: white; background-color: #190431;'>Adriel Alexander</h1>
 </div>
 <div class = "descricao-principal"> 
 <h6 class = texto-1>Graduando Em Analise e Desenvolvimento de Sistemas Pela XPE
