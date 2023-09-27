@@ -10,19 +10,51 @@ st.set_page_config(
 )
 st.markdown(estilo, unsafe_allow_html=True)
 # Definindo o título do aplicativo
-st.write(
+
+col1, col2 = st.columns(2, gap="small")
+with col1:
+    st.image('Adriel2.png')
+with col2:        
+    st.write(
   """
 <div class="container" style="text-align: center; margin-top: -4px;">
     <h1 class='titulo-personalizado' style='color: white; background-color: #01392B;'>Adriel Alexander</h1>
-    <div class="profile-img">
-        <img src="https://i.imgur.com/Ux9sLQp.jpg" alt="Foto de Perfil" width="300" height="300" style="border-radius: 50%; max-width: 300px; border: 8px solid #01392B; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); margin: 0 auto; margin-top: 7px;">
-    </div>
+</div>
+<div class = "descricao-principal"> 
+<h6 class = texto-1>Graduando Em Analise e Desenvolvimento de Sistemas Pela XPE
+</h6>
+<h6 class="texto-2">Desenvolvedor Java
+</h6>
+<h6 class="texto-3">Apaixonado pelo mundo tech
+</h6>
 </div>
 """,
     unsafe_allow_html=True
 )
+
+col1, col2, col3, col4 = st.columns(4)
+
+# Função para criar um badge centralizado
+def centered_badge(image_url, link, margin_bottom="20px"):
+    centered_style = f"display: flex; flex-direction: column; align-items: center; text-align: center; margin-bottom: {margin_bottom};"
+    badge = f'<div style="{centered_style}"><a href="{link}" target="_blank"><img src="{image_url}" alt="Badge" width="48"></a></div>'
+    return badge
+
+with col1:
+    st.markdown(centered_badge("https://img.icons8.com/fluency/48/linkedin.png", "https://www.linkedin.com/in/adriel-alexs/"), unsafe_allow_html=True)
+
+with col2:
+    st.markdown(centered_badge("https://img.icons8.com/fluency/48/github.png", "https://github.com/AdrielProg"), unsafe_allow_html=True)
+
+with col3:
+    st.markdown(centered_badge("https://img.icons8.com/fluency/48/email.png", "mailto:adriel.alexs123@gmail.com"), unsafe_allow_html=True)
+
+with col4:
+    st.markdown(centered_badge("https://img.icons8.com/fluency/48/phone.png", "tel:+5583998178892"), unsafe_allow_html=True)
+  
+
 # Sidebar com links para as páginas
-pagina_selecionada = st.sidebar.radio("Navegue", ["\U0001F464 Sobre Mim", "\U0001F4AC Soft Skills", "\U0001F4A1 Hard Skills", "\U0001F4BB Projetos", "\U0001F4DA Experiência Acadêmica", "\U0001F4E7 Contato"])
+pagina_selecionada = st.sidebar.radio("Navegue", ["\U0001F464 Sobre Mim", "\U0001F4AC Soft Skills", "\U0001F4A1 Hard Skills", "\U0001F4BB Projetos", "\U0001F4DA Experiência Acadêmica"])
 
 
 # Seção 'Sobre Mim'
@@ -108,15 +140,6 @@ elif pagina_selecionada == "\U0001F4BB Projetos":
 """
 
     st.markdown(conteudo_projetos, unsafe_allow_html=True)
-
-
-
-# Seção 'Contato'
-elif pagina_selecionada == "\U0001F4E7 Contato":
-    st.header("Contato")
-    st.write("Ficou interessado? Entre em contato comigo!")
-
-    st.write("[![LinkedIn](https://img.icons8.com/fluency/48/linkedin.png)](https://www.linkedin.com/in/adriel-alexs/) [![GitHub](https://img.icons8.com/fluency/48/github.png)](https://github.com/AdrielProg) [![Email](https://img.icons8.com/fluency/48/email.png)](mailto:adriel.alexs123@gmail.com) [![Telefone](https://img.icons8.com/fluency/48/phone.png)](tel:+5583998178892)")
 
 
 # Seção 'Hard Skills'

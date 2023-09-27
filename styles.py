@@ -1,5 +1,22 @@
 estilo = '''
 <style>
+[data-testid="stImage"] {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  max-width: 300px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  margin-top: 7px;
+}   
+.descricao-principal{
+ margin: 20px 0;
+    padding: 20px;
+    border: 2px solid #00A86B;
+    border-radius: 10px;
+    background-color: #003528;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 .titulo-personalizado{
  margin: 20px 0;
     padding: 20px;
@@ -12,6 +29,9 @@ estilo = '''
 .container {
     text-align: center;
     margin-top: -5px; /* Mover o container 5px para cima */
+}
+.css-ocqkz7 {
+  margin-left: 30px; /* Você pode ajustar o valor conforme necessário */
 }
 /* Estilo para a seção "Sobre Mim" */
 .secao-sobre-mim {
@@ -148,11 +168,11 @@ h1 {
     color: #FFFFFF;
     margin: 5px 0;
 }
-#MainMenu {
+/*#MainMenu {
     visibility: hidden;
     }
     footer {
         visibility: hidden;
-    }
+    }*/
 </style>
 '''
