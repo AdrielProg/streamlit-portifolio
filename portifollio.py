@@ -37,7 +37,7 @@ col1, col2, col3, col4 = st.columns(4)
 # Função para criar um badge centralizado
 def centered_badge(image_url, link, margin_bottom="-10px"):
     centered_style = f"display: flex; flex-direction: column; align-items: center; text-align: center; margin-bottom: {margin_bottom};"
-    badge = f'<div style="{centered_style}"><a href="{link}" target="_blank"><img src="{image_url}" alt="Badge" width="48"></a></div>'
+    badge = f'<div style="{centered_style}"><a href="{link}" target="_blank"><img src="{image_url}" alt="Badge" width="38"></a></div>'
     return badge
 
 with col1:
@@ -52,7 +52,7 @@ with col3:
 with col4:
     st.markdown(centered_badge("https://img.icons8.com/fluency/48/phone.png", "tel:+5583998178892"), unsafe_allow_html=True)
   
-st.markdown('<hr style="border: 1px solid #999; border-style: none none solid none; margin-bottom: 40px;">', unsafe_allow_html=True)
+st.markdown('<hr style="border: 1px solid #00A86B; border-style: none none solid none; margin-bottom: 40px;">', unsafe_allow_html=True)
 
 
 # Sidebar com links para as páginas
