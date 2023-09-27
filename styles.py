@@ -194,8 +194,14 @@ h1 {
     justify-content: center;
     }
     .badge-container > div {
-        margin: 0 10px; /* Adicione a margem desejada entre os badges em telas menores */
+        margin: 0 10px; 
     }
+}
+#MainMenu {
+    visibility: hidden;
+    }
+    footer {
+        visibility:hidden;
 }
 </style>
 '''
