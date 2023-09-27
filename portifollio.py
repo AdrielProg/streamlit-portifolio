@@ -150,10 +150,8 @@ elif pagina_selecionada == "\U0001F4A1 Hard Skills":
 
 # Seção 'Experiência Acadêmica'
 elif pagina_selecionada == "\U0001F4DA Experiência Acadêmica":
+    st.header("Experiência Acadêmica")
     experiencia = """
-
-    <h1>Experiência Acadêmica</h1>
-
     <div class="categoria">
         <h2>Ensino Superior</h2>
             <h3>XP Educação</h3>

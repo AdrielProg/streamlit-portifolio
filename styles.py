@@ -120,13 +120,12 @@ h1 {
 
 /* Estilo para cada categoria */
 .categoria {
-    margin-bottom: 20px;
-    background-color: #003528;
-    border: 1px solid #ccc;
-    border-radius: 10px;
+  margin: 20px 0;
     padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    color: #FFFFFF
+    border: 2px solid #00A86B;
+    border-radius: 10px;
+    background-color: #003528;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);   
 }
 
 /* Estilo para o título da categoria */
