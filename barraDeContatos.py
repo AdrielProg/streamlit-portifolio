@@ -1,7 +1,7 @@
 import streamlit as st
 
 def generate_badge(image_url, link):
-    badge = f'<div><a href="{link}" target="_blank"><img src="{image_url}" alt="Badge" width="32px"></a></div>'
+    badge = f'<div><a href="{link}" target="_blank"><img src="{image_url}" alt="Badge" width="40px"></a></div>'
     return badge
 
 def adciona_badges():

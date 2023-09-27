@@ -194,7 +194,7 @@ h1 {
     justify-content: center;
     }
     .badge-container > div {
-        margin: 5px 0; /* Adicione a margem desejada entre os badges em telas menores */
+        margin: 0 10px; /* Adicione a margem desejada entre os badges em telas menores */
     }
 }
 </style>
