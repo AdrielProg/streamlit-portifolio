@@ -1,4 +1,5 @@
 import streamlit as st
+from recursos import styles
 
 # Defina um estilo CSS personalizado
 custom_css = f"""

@@ -210,5 +210,13 @@ h1 {
     font-weight: bold;
      color: #00A86B;
 }
+  .streamlit-expander {
+            background-color: #0A0127;
+            border: 2px solid #00A86B;
+         border-radius: 10px; 
+        }
+        .streamlit-expanderHeader {
+            color: #00A86B;;
+            font-size: 25px; /* Aumenta o tamanho da fonte do cabeçalho */
 </style>
 '''
