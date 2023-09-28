@@ -179,13 +179,14 @@ h1 {
 
 .badge-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin
+    top:20px;
 }
 
 .badge-container > div {
-    margin: 0 20px; /* Adicione a margem desejada entre os badges */
+    margin: 13px 20px; /* Adicione a margem desejada entre os badges */
 }
 
 @media (max-width: 600px) {
@@ -203,5 +204,6 @@ h1 {
     footer {
         visibility:hidden;
 }
+
 </style>
 '''
