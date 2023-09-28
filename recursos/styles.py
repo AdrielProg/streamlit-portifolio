@@ -204,22 +204,11 @@ h1 {
     footer {
         visibility:hidden;
 }
-.css-1d9fzic p {
-        font-size:24px;
-        color: #00A86B;
-        font-weight: bold;
-}
-.css-1d9fzic {
-    background-color: #0A0127;
-     text-align: center; /* Centraliza horizontalmente */
-        display: flex; /* Centraliza verticalmente */
-        align-items: center; /* Centraliza verticalmente */
-        justify-content: center; /* Centraliza verticalmente *
-} 
- 
-        
+      
 .css-1d9fzic p{
     font-size:25px;
+    font-weight: bold;
+     color: #00A86B;
 }
 </style>
 '''
