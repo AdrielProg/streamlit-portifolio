@@ -1,8 +1,9 @@
 estilo = '''
 <style>
 [data-testid="stImage"] {
-  width: 300px;
-  height: 300px;
+  width: 260px;
+  height: 260px;
+  border: 4px solid #3dd56d;
   border-radius: 50%;
   max-width: 300px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
@@ -179,10 +180,13 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     top:20px;
+    margin-top: 20px;
 }
 
 .badge-container > div {
-    margin: 14px 17px; /* Adicione a margem desejada entre os badges */
+    margin: 0px 17px; /* Adicione a margem desejada entre os badges */
+    margin-top: 30px;
+    margin-bottom: 0px; 
 }
 
 @media (max-width: 600px) {

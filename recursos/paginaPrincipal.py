@@ -36,5 +36,5 @@ def mostrar_pagina_principal():
     </div>
     """, unsafe_allow_html=True)
 
-    st.markdown('<hr style="border: 2px solid #00A86B; border-style: none none solid none; margin-bottom: -60px; position: relative; top: -25px;">', unsafe_allow_html=True)
+    st.markdown('<hr style="border: 2px solid #00A86B; border-style: none none solid none; margin-bottom: -47px; position: relative; top: -16px;">', unsafe_allow_html=True)
  
