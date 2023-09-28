@@ -25,7 +25,7 @@ def mostrar_pagina_principal():
     with col2:
         st.write("""
         <div class="container" style="text-align: center; margin-top: -4px;">
-            <h1 class='titulo-personalizado' style='color: #00A86B; background-color: #0A0127;'>Adriel Alexander</h1>
+            <h1 class='titulo-personalizado' style='color: #3dd56d; background-color: #0A0127;'>Adriel Alexander</h1>
         </div>
         <div class = "descricao-principal"> 
         <ul>
@@ -36,5 +36,5 @@ def mostrar_pagina_principal():
     </div>
     """, unsafe_allow_html=True)
 
-    st.markdown('<hr style="border: 2px solid #00A86B; border-style: none none solid none; margin-bottom: -60px; position: relative; top: -25px;">', unsafe_allow_html=True)
+    st.markdown('<hr style="border: 2px solid #3dd56d; border-style: none none solid none; margin-bottom: -60px; position: relative; top: -25px;">', unsafe_allow_html=True)
  

@@ -12,7 +12,7 @@ estilo = '''
 .descricao-principal{
  margin: 20px 0;
     padding: 20px;
-    border: 2px solid #00A86B;
+    border: 2px solid ##3dd56d;
     border-radius: 10px;
     background-color: #0A0127;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -20,7 +20,7 @@ estilo = '''
 .titulo-personalizado{
  margin: 20px 0;
     padding: 20px;
-    border: 2px solid #00A86B;
+    border: 2px solid ##3dd56d;
     border-radius: 10px;
     background-color: #0A0127;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -36,7 +36,7 @@ estilo = '''
 .secao-sobre-mim {
     margin: 20px 0;
     padding: 20px;
-    border: 2px solid #00A86B;
+    border: 2px solid ##3dd56d;
     border-radius: 10px;
     background-color: #0A0127;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -45,7 +45,7 @@ estilo = '''
 .titulo-secao {
     font-size: 24px;
     margin-bottom: 20px;
-    color: #00A86B; 
+    color: #3dd56d; 
 }
 /* Estilo para os parágrafos de introdução */
 .paragrafo-introducao {
@@ -60,7 +60,7 @@ estilo = '''
 .lista-container {
    margin: 20px 0;
     padding: 20px;
-    border: 2px solid #00A86B;
+    border: 2px solid #3dd56d;
     border-radius: 10px;
     background-color: #0A0127;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -70,7 +70,7 @@ estilo = '''
 h2.subtitulo {
     font-size: 20px;
     margin-bottom: 10px;
-    color: #00A86B; 
+    color: #3dd56d; 
 }
 
 /* Lista de habilidades */
@@ -92,7 +92,7 @@ h2.subtitulo {
 .projeto {
     margin: 20px 0;
     padding: 20px;
-    border: 2px solid #00A86B;
+    border: 2px solid #3dd56d;
     border-radius: 10px;
     background-color: #0A0127;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -111,7 +111,7 @@ h2.subtitulo {
 }
 /* Estilo de links para projetos */
 .link-externo {
-    color: #00A86B;
+    color: #3dd56d;
     text-decoration: none;
     font-weight: bold;
 }
@@ -144,7 +144,7 @@ h1 {
 .categoria {
   margin: 20px 0;
     padding: 20px;
-    border: 2px solid #00A86B;
+    border: 2px solid #3dd56d;
     border-radius: 10px;
     background-color: #0A0127;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);   
@@ -153,7 +153,7 @@ h1 {
 /* Estilo para o título da categoria */
 .categoria h2 {
     font-size: 24px;
-    color: #00C776; 
+    color: #3dd56d; 
     margin-bottom: 10px;
 }
 
@@ -207,15 +207,15 @@ h1 {
 .css-1d9fzic p{
     font-size:25px;
     font-weight: bold;
-     color: #00A86B;
+     color: #3dd56d;
 }
   .streamlit-expander {
             background-color: #0A0127;
-            border: 2px solid #00A86B;
+            border: 2px solid #3dd56d;
          border-radius: 10px; 
         }
         .streamlit-expanderHeader {
-            color: #00A86B;;
+            color: #3dd56d;;
             font-size: 25px; /* Aumenta o tamanho da fonte do cabeçalho */
             }
 </style>
