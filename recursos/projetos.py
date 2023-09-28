@@ -1,24 +1,6 @@
 import streamlit as st
 from recursos import styles
 
-# Defina um estilo CSS personalizado
-custom_css = f"""
-    <style>
-        .streamlit-expander {{
-            background-color: #0A0127;
-            border: 2px solid #00A86B;
-            border-radius: 10px; 
-        }}
-        .streamlit-expanderHeader {{
-            color: #00A86B;;
-            font-size: 25px; /* Aumenta o tamanho da fonte do cabeçalho */
-        }}
-        .st-emotion-cache-1d9fzic p{{
-         font-size:24px
-        }}
-    </style>
-"""
-
 def exibir_projetos():
     st.header("Projetos")
     st.write("Aqui estão alguns dos projetos em que trabalhei:")
@@ -43,7 +25,7 @@ def exibir_projetos():
     ]
 
     # Chame o estilo CSS personalizado
-    st.markdown(custom_css, unsafe_allow_html=True)
+    st.markdown(styles.estilo, unsafe_allow_html=True)
 
     # Loop através dos projetos e exibição com expander
     for projeto in projetos:
