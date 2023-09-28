@@ -8,7 +8,7 @@ from recursos.sorfSkills import mostrar_habilidades_interpessoais
 mostrar_pagina_principal()
 
 
-pagina_selecionada = st.sidebar.radio("Navegue", ["\U0001F464 Sobre Mim", "\U0001F4BB Projetos", "\U0001F4A1 Hard Skills", "\U0001F4AC Soft Skills", "\U0001F4DA Experiência Acadêmica"])
+pagina_selecionada = st.sidebar.radio("Portifólio", ["\U0001F464 Sobre Mim", "\U0001F4BB Projetos", "\U0001F4A1 Hard Skills", "\U0001F4AC Soft Skills", "\U0001F4DA Experiência Acadêmica"])
 
 
 if pagina_selecionada == "\U0001F464 Sobre Mim":

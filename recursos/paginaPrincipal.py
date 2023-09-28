@@ -11,8 +11,8 @@ def mostrar_pagina_principal():
         initial_sidebar_state="expanded",
     )
     st.markdown(stl.estilo, unsafe_allow_html=True)
-
-    col1, col2 = st.columns(2, gap="small")
+    container = st.container()
+    col1, col2 = container.columns(2, gap="large")
     with col1:
         st.image('Adriel2.png')
         badge_info_list = bc.adciona_badges()
@@ -25,7 +25,7 @@ def mostrar_pagina_principal():
     with col2:
         st.write("""
         <div class="container" style="text-align: center; margin-top: -4px;">
-            <h1 class='titulo-personalizado' style='color: #00A86B; background-color: #190431;'>Adriel Alexander</h1>
+            <h1 class='titulo-personalizado' style='color: #00A86B; background-color: #0A0127;'>Adriel Alexander</h1>
         </div>
         <div class = "descricao-principal"> 
         <ul>

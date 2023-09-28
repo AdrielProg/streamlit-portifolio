@@ -14,7 +14,7 @@ estilo = '''
     padding: 20px;
     border: 2px solid #00A86B;
     border-radius: 10px;
-    background-color: #190431;
+    background-color: #0A0127;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .titulo-personalizado{
@@ -22,7 +22,7 @@ estilo = '''
     padding: 20px;
     border: 2px solid #00A86B;
     border-radius: 10px;
-    background-color: #190431;
+    background-color: #0A0127;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 }
@@ -39,7 +39,7 @@ estilo = '''
     padding: 20px;
     border: 2px solid #00A86B;
     border-radius: 10px;
-    background-color: #190431;
+    background-color: #0A0127;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 /* Título da seção */
@@ -63,7 +63,7 @@ estilo = '''
     padding: 20px;
     border: 2px solid #00A86B;
     border-radius: 10px;
-    background-color: #190431;
+    background-color: #0A0127;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -82,7 +82,7 @@ h2.subtitulo {
 }
 /* Estilo para os links externos */
 .link-externo {
-    color: #190431;
+    color: #0A0127;
     text-decoration: none;
     font-weight: bold;
 }
@@ -95,7 +95,7 @@ h2.subtitulo {
     padding: 20px;
     border: 2px solid #00A86B;
     border-radius: 10px;
-    background-color: #190431;
+    background-color: #0A0127;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 /* Título do projeto */
@@ -128,6 +128,7 @@ h2.subtitulo {
     list-style-type: disc; /* Define o tipo de marcador da lista */
     color: white; /* Define a cor do texto das listas para branco */
     padding-left: 20px; /* Adiciona um recuo à esquerda nas listas */
+    
 }
 
 .lista-objetivos li,
@@ -146,7 +147,7 @@ h1 {
     padding: 20px;
     border: 2px solid #00A86B;
     border-radius: 10px;
-    background-color: #190431;
+    background-color: #0A0127;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);   
 }
 
@@ -204,6 +205,33 @@ h1 {
     footer {
         visibility:hidden;
 }
+.css-1d9fzic p {
+        font-size:24px;
+        color: #00A86B;
+        font-weight: bold;
+}
+.css-1qg05tj {
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px solid #00A86B;
+    border-radius: 10px;
+    background-color: #190431;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+     text-align: center; /* Centraliza horizontalmente */
+        display: flex; /* Centraliza verticalmente */
+        align-items: center; /* Centraliza verticalmente */
+        justify-content: center; /* Centraliza verticalmente *
+}
+ .streamlit-expander {
+            background-color: #0A0127;
+            border: 2px solid #00A86B;
+            border-radius: 10px; 
+        }
+        .streamlit-expanderHeader {
+            color: #00A86B;
+            font-size: 25px; /* Aumenta o tamanho da fonte do cabeçalho */
+        
 
+}
 </style>
 '''
