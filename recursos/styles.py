@@ -25,7 +25,6 @@ estilo = '''
     background-color: #0A0127;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-}
 .container {
     text-align: center;
     margin-top: -5px; /* Mover o container 5px para cima */
@@ -218,5 +217,6 @@ h1 {
         .streamlit-expanderHeader {
             color: #00A86B;;
             font-size: 25px; /* Aumenta o tamanho da fonte do cabeçalho */
+            }
 </style>
 '''
