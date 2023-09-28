@@ -182,12 +182,11 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
     top:20px;
 }
 
 .badge-container > div {
-    margin: 13px 20px; /* Adicione a margem desejada entre os badges */
+    margin: 14px 17px; /* Adicione a margem desejada entre os badges */
 }
 
 @media (max-width: 600px) {
