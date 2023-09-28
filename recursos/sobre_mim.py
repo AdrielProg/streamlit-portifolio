@@ -1,5 +1,5 @@
 import streamlit as st
-import styles as stl
+from recursos import styles
 def sobre_mim():
     conteudo_sobre_mim = """
 <div class="secao-sobre-mim">
@@ -15,5 +15,5 @@ def sobre_mim():
     <p class="paragrafo-introducao">Confira meus trabalhos acadêmicos no <a class="link-externo" href="https://github.com/AdrielProg" target="_blank">GitHub</a> &#128187;</p>
 </div>
 """
-    st.markdown(stl.estilo, unsafe_allow_html=True)
+    st.markdown(styles.estilo, unsafe_allow_html=True)
     st.markdown(conteudo_sobre_mim, unsafe_allow_html=True)
