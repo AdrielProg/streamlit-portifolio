@@ -232,5 +232,8 @@ h1 {
         
 
 }
+.css-1d9fzic p{
+    font-size:25px;
+}
 </style>
 '''
