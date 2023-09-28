@@ -1,6 +1,6 @@
 import streamlit as st
 from recursos.paginaPrincipal import show_pagina_principal
-from resource import sobre_mim , hard_skills , projetos , experiencia
+from recursos import sobre_mim , hard_skills , projetos , experiencia
 from recursos.sorfSkills import mostrar_habilidades_interpessoais
 
 
