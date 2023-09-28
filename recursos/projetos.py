@@ -1,12 +1,6 @@
 import streamlit as st
 from recursos import styles
-css = '''
-<style>
-[data-testid="stExpander"] div > div > div > div > div > div > div > div > div > div {
-    font-size: 20px;
-}
-</style>
-'''
+
 def exibir_projetos():
     st.header("Projetos")
     st.write("Aqui estão alguns dos projetos em que trabalhei:")
@@ -29,9 +23,6 @@ def exibir_projetos():
             "link_github": "https://github.com/AdrielProg/Dio-Trilha-Java-Basico-Diagrama-Iphone"
         }
     ]
-
-    # Chame o estilo CSS personalizado
-    st.markdown(styles.estilo, unsafe_allow_html=True)
 
     # Loop através dos projetos e exibição com expander
     for projeto in projetos:

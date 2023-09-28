@@ -10,9 +10,9 @@ estilo = '''
   margin-top: 7px;
 }   
 .descricao-principal{
- margin: 20px 0;
+    margin: 20px 0;
     padding: 20px;
-    border: 2px solid ##3dd56d;
+    border: 2px solid #3dd56d;
     border-radius: 10px;
     background-color: #0A0127;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -20,23 +20,20 @@ estilo = '''
 .titulo-personalizado{
  margin: 20px 0;
     padding: 20px;
-    border: 2px solid ##3dd56d;
+    border: 2px solid #3dd56d;
     border-radius: 10px;
     background-color: #0A0127;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-.container {
-    text-align: center;
-    margin-top: -5px; /* Mover o container 5px para cima */
-}
+
 .css-ocqkz7 {
   margin-left: 30px; /* Você pode ajustar o valor conforme necessário */
 }
 /* Estilo para a seção "Sobre Mim" */
 .secao-sobre-mim {
-    margin: 20px 0;
+   margin: 20px 0;
     padding: 20px;
-    border: 2px solid ##3dd56d;
+    border: 2px solid #3dd56d;
     border-radius: 10px;
     background-color: #0A0127;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -63,7 +60,7 @@ estilo = '''
     border: 2px solid #3dd56d;
     border-radius: 10px;
     background-color: #0A0127;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
 }
 
 /* Título das habilidades */
@@ -215,7 +212,7 @@ h1 {
          border-radius: 10px; 
         }
         .streamlit-expanderHeader {
-            color: #3dd56d;;
+            color: #3dd56d;
             font-size: 25px; /* Aumenta o tamanho da fonte do cabeçalho */
             }
 </style>
