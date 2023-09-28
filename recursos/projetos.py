@@ -12,6 +12,9 @@ custom_css = f"""
             color: #00A86B;;
             font-size: 25px; /* Aumenta o tamanho da fonte do cabeçalho */
         }}
+        .st-emotion-cache-1d9fzic p{{
+         font-size:24px
+        }}
     </style>
 """
 

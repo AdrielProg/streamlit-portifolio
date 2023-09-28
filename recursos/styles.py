@@ -209,29 +209,15 @@ h1 {
         color: #00A86B;
         font-weight: bold;
 }
-.css-1qg05tj {
-    margin: 20px 0;
-    padding: 20px;
-    border: 2px solid #00A86B;
-    border-radius: 10px;
-    background-color: #190431;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+.css-1d9fzic {
+    background-color: #0A0127;
      text-align: center; /* Centraliza horizontalmente */
         display: flex; /* Centraliza verticalmente */
         align-items: center; /* Centraliza verticalmente */
         justify-content: center; /* Centraliza verticalmente *
-}
- .streamlit-expander {
-            background-color: #0A0127;
-            border: 2px solid #00A86B;
-            border-radius: 10px; 
-        }
-        .streamlit-expanderHeader {
-            color: #00A86B;
-            font-size: 25px; /* Aumenta o tamanho da fonte do cabeçalho */
+} 
+ 
         
-
-}
 .css-1d9fzic p{
     font-size:25px;
 }
