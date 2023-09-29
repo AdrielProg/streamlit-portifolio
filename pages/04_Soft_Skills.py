@@ -1,0 +1,3 @@
+from recursos import sorfSkills , paginaPrincipal
+paginaPrincipal.mostrar_pagina_principal()
+sorfSkills.mostrar_habilidades_interpessoais()

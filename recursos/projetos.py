@@ -1,5 +1,20 @@
 import streamlit as st
-from recursos import styles
+custom_css = f"""
+    <style>
+        .streamlit-expander {{
+            background-color: #0A0127;
+            border: 2px solid #3dd56d;
+            border-radius: 10px; 
+        }}
+        .streamlit-expanderHeader {{
+            color: #3dd56d;;
+            font-size: 25px; /* Aumenta o tamanho da fonte do cabeçalho */
+        }}
+        .st-emotion-cache-1d9fzic p{{
+         font-size:24px
+        }}
+    </style>
+"""
 
 def exibir_projetos():
     st.header("Projetos")
@@ -24,15 +39,16 @@ def exibir_projetos():
         }
     ]
 
+    # Chame o estilo CSS personalizado
+    st.markdown(custom_css, unsafe_allow_html=True)
+
     # Loop através dos projetos e exibição com expander
     for projeto in projetos:
-     with     st.expander(f":green[{projeto['nome']}]"):
+      with    st.expander(f"{projeto['nome']}"):
+              st.markdown(projeto["descricao"])
               st.markdown(
-            f'<p style="font-size: 16px;">{projeto["descricao"]}</p>'
-            f'<a href="{projeto["link_github"]}" target="_blank" class="link-externo">Clique aqui para acessar o projeto no GitHub</a>',
-            unsafe_allow_html=True)
-            
-    st.markdown(styles.estilo, unsafe_allow_html=True)
+                f'<a href="{projeto["link_github"]}" target="_blank" class="link-externo">Clique aqui para acessar o projeto no GitHub</a>',
+                unsafe_allow_html=True
+            )
 
 # Chame a função para exibir os projetos
-
