@@ -1,3 +1,4 @@
-from recursos import sorfSkills , paginaPrincipal
-paginaPrincipal.mostrar_pagina_principal()
-sorfSkills.mostrar_habilidades_interpessoais()
+from resources import soft_skills, main_page  
+
+main_page.display_home_page()  
+soft_skills.display_interpersonal_skills()
