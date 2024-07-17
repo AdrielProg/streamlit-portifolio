@@ -1,4 +1,4 @@
-from recursos import hard_skills , paginaPrincipal
+from resources import hard_skills, main_page  
 
-paginaPrincipal.mostrar_pagina_principal()
-hard_skills.mostrar_hard_skills()
+main_page.display_home_page()  
+hard_skills.display_hard_skills() 
